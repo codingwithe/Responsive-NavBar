@@ -6,7 +6,7 @@ This website highlights responsive design and a cool dropdown navbar. Few animat
 
 Instructions: 
 Go to : 
-https://github.com/codingwithe/Responsive-NavBar
+https://codingwithe.github.io/Responsive-NavBar/
 
 ### Prerequisites
 
