@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Push Divs</title>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Bootstrap -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Header</h1>
+
+            <nav>
+                <div class="toggle">
+                        <i class="fa fa-bars" id="menu"></i>
+                </div>
+
+                <ul id="menulist">
+                    <a href="#div1"><li>Home</li></a>
+                    <a href="#div2"><li>Page 2</li></a>
+                    <a href="#div3"><li>Page 3</li></a>
+                    <a href="#div4"><li>Page 4</li></a>
+                </ul>
+            </nav>
+        </div>
+
+        <section>
+            <div class="div" id="div1">Div 1
+                <button type="button">Button 1</button>
+            </div>
+            <div class="div" id="div2">Div 2
+                <button type="button">Button 2</button>
+            </div>
+            <div class="div" id="div3">Div 3
+                <button type="button">Button 3</button>
+            </div>
+            <div class="div" id="div4">Div 4
+                <button type="button">Button 4</button>
+            </div>
+        </section>
+
+        <!-- JavaScript -->
+        <script src="main.js"></script>
+    </body>
+
+</html>
